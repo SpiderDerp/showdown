@@ -29,7 +29,7 @@ jobs:
     - run: npm install
     - run: npm run build
     - name: Deploy 🚀
-      uses: SpiderDerp/github-pages-deploy-action@v4
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages # The branch the action should deploy to.
         folder: build # The folder the action should deploy.
